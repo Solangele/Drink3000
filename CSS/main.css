@@ -1,0 +1,127 @@
+/* 
+========= RESET ========= 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+/* 
+========== HEADER ==========
+ */
+
+ header {
+    background-image: url(../vid/snapshots/Pour.jpg);
+    background-position: center;
+    height: 400px;
+ }
+
+ .barreNav {
+    display: flex;
+    background-color: #333333ad;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+ }
+
+ nav ul li {
+    display: inline-flex;
+    padding: 1rem;       
+ }
+
+ #recettes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+ }
+
+ .titreRecettes {
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+ }
+
+ .buttonRecettes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+ }
+
+ .carteRecettes {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .originalRecettes {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+ }
+
+ .RTitre {
+    padding-bottom: 2rem;
+ }
+
+ hr {
+    margin: auto;
+ }
+
+ .RText {
+    font-size: small;
+    padding-top: 3rem;
+ }
+
+ .RButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+ }
+
+ .infos {
+    font-size: x-small;
+    background-color: rgba(97, 17, 17, 0.397);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 16px;
+ }
+
+ .selectionner {
+    font-size: x-small;
+    padding: 1rem;
+ }
+
+ .mojitoRecettes {
+    background-color: greenyellow;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+ }
+
+ .tropicalRecettes {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+ }

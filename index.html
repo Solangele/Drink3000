@@ -2,11 +2,202 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>Bonjour le monde</h1>
+    <header>
+        <!-- <div class = "media">
+             <iframe src="./vid/mp4/Pour.mp4" frameborder="0" allow="autoplay; encrypted-media"></iframe> -->
+            <!-- <img class="img1" src="./vid/snapshots/Pour.jpg" alt="">
+        </div> --> 
+        
+        <div class="barreNav">
+            <div>
+                <p><i class="fa-solid fa-martini-glass"></i></p>
+                <h1>Drink 3000</h1>
+            </div>
+            <nav>
+                <ul>
+                    <a href="#recettes"><li>RECETTES</li></a>
+                    <li>RÉFÉRENCES</li>
+                    <li>CONTACT</li>
+                </ul>
+            </nav>            
+        </div>        
+    </header>
+
+    <main>
+        <div id="recettes">
+            <div class="titreRecettes">
+                <p>NOS RECETTES</p>
+            </div>
+            <div class="buttonRecettes">
+                <div>
+                    <button>ENERGISANTE</button>
+                </div>
+                <div>
+                    <button>DÉSALTÉRANTE</button>                
+                </div>
+            </div>
+            <div class="carteRecettes">
+                <div class="originalRecettes">
+                    <div>
+                        <p class="RTitre">Original</p>
+                        <p><i class="fa-solid fa-bolt"></i></p>
+                    </div>
+    
+                    <hr color="white" size="1" width="95%">
+    
+                    <div class = "RText">
+                        <p>Boisson énergisante gazeuse, à la taurine et chargée en caféine</p>
+                    </div>
+                    <div class="RButton">
+                        <p class="infos">PLUS D'INFOS</p>
+                        <p class="selectionner">SÉLECTIONNER</p>
+                    </div>
+                </div>
+                
+                <div class="mojitoRecettes">
+                    <div>
+                        <p class="RTitre">Mojito</p>
+                        <p><i class="fa-solid fa-bolt"></i></p>
+                    </div>
+    
+                    <hr color="white" size="1" width="95%">
+    
+                    <div class="RText">
+                        <p>Boisson énergisante gazeuse, saveur mojito et sans alcool.</p>
+                    </div>
+                    <div class="RButton">
+                        <p class="infos">PLUS D'INFOS</p>
+                        <p class="selectionner">SÉLECTIONNER</p>
+                    </div>
+                </div> 
+                
+                <div class="tropicalRecettes">
+                    <div>
+                        <p class="RTitre">Tropical</p>
+                        <p><i class="fa-regular fa-snowflake"></i></p>
+                    </div>
+    
+                    <hr color="white" size="1" width="95%">
+    
+                    <div class="RText">
+                        <p>Boisson énergisante gazeuse, à la taurine et chargée en caféine</p>
+                    </div>
+                    <div class="RButton">
+                        <p class="infos">PLUS D'INFOS</p>
+                        <p class="selectionner">SÉLECTIONNER</p>
+                    </div>
+                </div>  
+                  
+            </div>
+        </div>
+        
+
+        <div>
+            <p>Votre choix :</p>
+            <p>Boisson sélectionnée</p>
+        </div>
+
+        <div>
+            <div>
+                <p>NOS RÉFÉRENCES</p>
+            </div>
+            <div>
+                <div>
+                    <p>CAFÉS, HÔTELS, RESTAURANTS</p>
+                    <hr>
+                </div>
+                <div>
+                    <img src="./img/references/chr.png" alt="Canettes">
+                </div>                
+            </div>
+
+            <div>
+                <div>
+                    <p>MARQUES</p>
+                    <hr>
+                </div>
+                <div>
+                    <img src="./img/references/marques.png" alt="Canettes">
+                </div>                
+            </div>
+
+            <div>
+                <div>
+                    <p>ASSOCIATIONS, ÉCOLES</p>
+                    <hr>
+                </div>
+                <div>
+                    <img src="./img/references/asso.png" alt="Canettes">
+                </div>                
+            </div>
+
+            <div>
+                <p>Toutes les marques commerciales déposées ou non déposées citées dans ce document sont la propriété exclusive de leurs détenteurs respectifs</p>
+            </div>
+
+            <div>
+                <div>
+                    <p>PUBLICITÉS PAR L'OBJET</p>
+                    <hr>
+                </div>
+                <div>
+                    <img src="./img/references/pub1.png" alt="Canettes">
+                    <img src="./img/references/pub2.png" alt="Canettes">
+                    <img src="./img/references/pub3.png" alt="Canettes">
+                </div>                
+            </div>
+        </div>
+
+        <div>
+            <p>CAROUSSEL</p>
+            <div>
+                <p>Garantie 100% fraicheur</p>
+                <p>Nous garantissons votre satisfaction lors de la dégustation de nos boissons</p>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <p>Nous contacter ?</p>
+                <form id="form">
+
+                    <div>
+                        <label for="mail">Email</label>
+                        <input type="email">
+                    </div>
+
+                    <div>
+                        <label for="demande">Objet de la demande</label>
+                        <select name="demande" id="demande">
+                            <option value="particulier">Particulier</option>
+                            <option value="professionel">Professionnel</option>
+                            <option value="groupe">Groupe</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="texte">Votre demande</label>
+                        <input type="textarea" size="40"> 
+                    </div>
+
+                    <button>ENVOYER</button>
+                    
+                </form>
+            </div>
+
+            <div>
+                <p>Où sommes-nous ?</p>
+            </div>
+            
+        </div>
+        
+    </main>
+
     
 </body>
 </html>
