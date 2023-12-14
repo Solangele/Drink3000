@@ -123,7 +123,7 @@
     border-radius: 16px;
  }
 
- .selectionner {
+ .selectionnerOr {
     font-size: x-small;
     padding: 1rem;
  }
@@ -138,6 +138,11 @@
     margin-top: 3rem;
  }
 
+ .selectionnerMo {
+    font-size: x-small;
+    padding: 1rem;
+ }
+
  .tropicalRecettes {
     background-color: rgb(185, 121, 3);
     color: white;
@@ -146,6 +151,11 @@
     width: 80%;
     margin: auto;
     margin-top: 3rem;
+ }
+
+ .selectionnerTro {
+    font-size: x-small;
+    padding: 1rem;
  }
 
  .choice {
