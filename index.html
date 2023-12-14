@@ -3,27 +3,26 @@
 <head>
     <meta charset="UTF-8">    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/59b11fefb3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/main.css">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <!-- <div class = "media">
-             <iframe src="./vid/mp4/Pour.mp4" frameborder="0" allow="autoplay; encrypted-media"></iframe> -->
-            <!-- <img class="img1" src="./vid/snapshots/Pour.jpg" alt="">
-        </div> --> 
-        
-        <div class="barreNav">
+    <header>   
+        <div class="media">
+            <video class="media" controls autoplay loop muted><source src="./vid/mp4/Pour.mp4" type="video/mp4"></video>
+            <i class="fa-solid fa-arrow-down fa-bounce"></i>
+       </div>     
+        <div class="barreNav"> 
             <div>
-                <p><i class="fa-solid fa-martini-glass"></i></p>
-                <h1>Drink 3000</h1>
+                <h1>🍸 Drink 3000</h1>
             </div>
             <nav>
                 <ul>
                     <a href="#recettes"><li>RECETTES</li></a>
-                    <li>RÉFÉRENCES</li>
-                    <li>CONTACT</li>
+                    <a href="#references"><li>RÉFÉRENCES</li></a>
+                    <a href="#contact"><li>CONTACT</li></a>
                 </ul>
             </nav>            
         </div>        
@@ -46,7 +45,6 @@
                 <div class="originalRecettes">
                     <div>
                         <p class="RTitre">Original</p>
-                        <p><i class="fa-solid fa-bolt"></i></p>
                     </div>
     
                     <hr color="white" size="1" width="95%">
@@ -63,7 +61,6 @@
                 <div class="mojitoRecettes">
                     <div>
                         <p class="RTitre">Mojito</p>
-                        <p><i class="fa-solid fa-bolt"></i></p>
                     </div>
     
                     <hr color="white" size="1" width="95%">
@@ -80,7 +77,6 @@
                 <div class="tropicalRecettes">
                     <div>
                         <p class="RTitre">Tropical</p>
-                        <p><i class="fa-regular fa-snowflake"></i></p>
                     </div>
     
                     <hr color="white" size="1" width="95%">
@@ -103,7 +99,7 @@
             <p class="choiceBoisson">Boisson sélectionnée</p>
         </div>
 
-        <div class="references">
+        <div id="references">
             <div class="refTitre">
                 <p>NOS RÉFÉRENCES</p>
             </div>
@@ -182,19 +178,19 @@
             </div>
           </div>
 
-        <div class="footer">
-            <div class="contact">
+        <div id="footer">
+            <div id="contact">
                 <p>Nous contacter ?</p>
-                <form id="form">
+                <form class="form">
 
                     <div class="field">
-                        <label for="mail">Email</label>
-                        <input type="email">
+                        <label class="label" for="mail">Email</label>
+                        <input class="input" type="email">
                     </div>
 
                     <div class="field">
-                        <label for="demande">Objet de la demande</label>
-                        <select name="demande" id="demande">
+                        <label class="label" for="demande">Objet de la demande</label>
+                        <select class="input" name="demande" id="demande">
                             <option value="particulier">Particulier</option>
                             <option value="professionel">Professionnel</option>
                             <option value="groupe">Groupe</option>
@@ -202,8 +198,8 @@
                     </div>
 
                     <div class="field">
-                        <label for="texte">Votre demande</label>
-                        <input type="textarea" size="10"> 
+                        <label class="label" for="texte">Votre demande</label>
+                        <input class="input" type="textarea" size="10"> 
                     </div>
 
                     <p>ENVOYER</p>
@@ -211,8 +207,9 @@
                 </form>
             </div>
 
-            <div>
+            <div class="map">
                 <p>Où sommes-nous ?</p>
+                <img class="mappy" src="./img/Capture d’écran 2023-12-14 154053.png" alt="">
             </div>
             
         </div>

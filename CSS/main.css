@@ -22,18 +22,39 @@
  */
 
  header {
-    background-image: url(../vid/snapshots/Pour.jpg);
-    background-position: center;
+    height: 600px;
+ }
+
+ .media {
+    /* z-index: -1;
     height: 400px;
+    width: 1000px; */
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+    position: absolute;  
+ }
+
+.media i {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 500px;
+    height: 100px;
  }
 
  .barreNav {
     display: flex;
-    background-color: #333333ad;
+    background-color: #3333339d;
     color: white;
     justify-content: space-between;
     align-items: center;
     padding: 3rem;
+    z-index: 1;
+    position: relative;
+    
+    
  }
 
  nav ul li {
@@ -138,7 +159,7 @@
     padding-top: 1rem;
  }
 
- .references {
+ #references {
     padding-top: 3rem;
     justify-content: center;
     margin: auto;
@@ -198,20 +219,60 @@
     font-size: small;
  }
 
- .footer {
+ #footer {
     background-color: grey;
  }
  
- .contact {
+ #contact {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center; 
+      
+ }
+ 
+ .form {
+    width: 100%;
+    padding: 0 5rem;
  }
 
  .field {
     display: flex;
-    justify-content: space-around;   
-    
+    padding: 1rem 0;  
+    width: 100%;      
  }
 
+ .label {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+ }
+
+ .input {
+    display: flex;
+    width: 70%;
+    margin: 0 3rem;
+ }
+
+ .form p {
+    text-align: center;
+ }
+
+ .map {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .map p {
+    text-align: center;
+    color: white;
+ }
+
+ .mappy {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    padding-bottom: 5rem;
+    
+ }
