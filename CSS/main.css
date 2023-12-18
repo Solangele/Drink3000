@@ -44,6 +44,15 @@
     height: 100px;
  }
 
+ .media p {
+   position: absolute;
+   color: white;
+   left: 35%;
+   top: 300px;
+   font-size: xx-large;
+   
+ }
+
  .barreNav {
     display: flex;
     background-color: #3333339d;
@@ -98,6 +107,8 @@
 
  .RTitre {
     padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
  }
 
  hr {
