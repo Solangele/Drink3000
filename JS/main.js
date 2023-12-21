@@ -11,8 +11,8 @@ let tropical = document.querySelector(".selectionnerTro");
 let boisson = document.querySelector(".nomBoisson");
 
 let choix = "Aucune";
-//utilisation innertext pour affecter la valeur à .nomBoisson
-choix = boisson.innerText;
+//utilisation innertext pour affecter la valeur à .nomBoisson -- utiliser textContent de préférence
+choix = boisson.textContent;
 
 original.addEventListener("click", () => {
     choix = cocktail[0];
